@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import HeaderNavbar from "./components/HeaderNavbar.vue"
 </script>
 
 <template>
@@ -14,6 +15,8 @@ import HelloWorld from './components/HelloWorld.vue'
   <HelloWorld msg="Vite + Vue" />
 
   <h1 class="text-6x1 font-bold underline">Hola mundo</h1>
+
+  <HeaderNavbar msg="prueba"></HeaderNavbar>
 </template>
 
 <style scoped>
